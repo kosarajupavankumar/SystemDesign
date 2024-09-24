@@ -1,0 +1,148 @@
+<mxfile host="app.diagrams.net" modified="2024-05-29T09:40:22.819Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="5EvQuSaYpMXi63XXROnk" version="24.4.9" type="google">
+  <diagram name="Page-1" id="AqxoCIrnYaayk7rzM27X">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="02zTtfY_MGwb1G0K5M5e-1" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="170" y="30" width="1050" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="02zTtfY_MGwb1G0K5M5e-1" source="a4hiRSeXa8W6ljTA61oM-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="232.57894736842104" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-1" value="Laptop" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;spacingLeft=0;fontColor=#999999;fontSize=12;whiteSpace=wrap;spacingBottom=2;html=1;" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry y="190" width="70" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-2" value="" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.laptop;part=1;" vertex="1" parent="a4hiRSeXa8W6ljTA61oM-1">
+          <mxGeometry x="0.5" width="50" height="33" relative="1" as="geometry">
+            <mxPoint x="-25" y="18.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-9" value="" style="group" connectable="0" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="220" y="120" width="80" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a4hiRSeXa8W6ljTA61oM-9">
+          <mxGeometry width="80" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-7" value="API GATEWAY +&amp;nbsp;&lt;br&gt;&lt;br&gt;LOAD BALANCER" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="a4hiRSeXa8W6ljTA61oM-9">
+          <mxGeometry x="12.5" y="50" width="55" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-circle-one-fill-128.png" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="130" y="190" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="67.5" y="264.62" as="targetPoint" />
+            <mxPoint x="220" y="264.6199999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-12" value="App Servers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="400" y="190" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="02zTtfY_MGwb1G0K5M5e-1" target="a4hiRSeXa8W6ljTA61oM-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.007;exitY=0.834;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="02zTtfY_MGwb1G0K5M5e-1" source="a4hiRSeXa8W6ljTA61oM-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="240" as="targetPoint" />
+            <mxPoint x="390" y="240.31" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-circle-two-fill-128.png" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="342" y="200" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-20" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="679" y="70" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-2/24/database-128.png" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="679" y="290" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.045;exitY=0.389;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.08;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="02zTtfY_MGwb1G0K5M5e-1" target="a4hiRSeXa8W6ljTA61oM-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="213.34000000000003" as="sourcePoint" />
+            <mxPoint x="685.05" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.009;exitY=0.411;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="02zTtfY_MGwb1G0K5M5e-1" source="a4hiRSeXa8W6ljTA61oM-12" target="a4hiRSeXa8W6ljTA61oM-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="220" as="sourcePoint" />
+            <mxPoint x="690" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-24" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-circle-three-fill-128.png" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="590" y="130" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-circle-four-fill-128.png" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="590" y="275" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-29" value="DataBase" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="693" y="384" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-30" value="Cache&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="679" y="112" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-31" value="scheduled jobs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="930" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-32" value="Batch processing pipeline&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="930" y="374" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="220" as="sourcePoint" />
+            <mxPoint x="740" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="02zTtfY_MGwb1G0K5M5e-1" source="a4hiRSeXa8W6ljTA61oM-31" target="a4hiRSeXa8W6ljTA61oM-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="220" as="sourcePoint" />
+            <mxPoint x="760" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-35" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-square-seven-fill-128.png" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="840" y="280" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-36" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-circle-eight-fill-128.png" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="850" y="140" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-38" value="Flow logs" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.flow_logs;" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="970" y="490" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.581;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="02zTtfY_MGwb1G0K5M5e-1" source="a4hiRSeXa8W6ljTA61oM-38" target="a4hiRSeXa8W6ljTA61oM-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="999" y="480" as="sourcePoint" />
+            <mxPoint x="1049" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4hiRSeXa8W6ljTA61oM-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.568;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.58;exitY=-0.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="02zTtfY_MGwb1G0K5M5e-1" source="a4hiRSeXa8W6ljTA61oM-32" target="a4hiRSeXa8W6ljTA61oM-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="370" as="sourcePoint" />
+            <mxPoint x="930" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPDhG0j2hxGHGdSLirxI-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="02zTtfY_MGwb1G0K5M5e-1" source="a4hiRSeXa8W6ljTA61oM-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="560" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPDhG0j2hxGHGdSLirxI-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-circle-five-fill-128.png" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="961" y="442" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jPDhG0j2hxGHGdSLirxI-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-circle-six-fill-128.png" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="970" y="290" width="21" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="jPDhG0j2hxGHGdSLirxI-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Type Ahead (Auto-Complete) System Design&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="02zTtfY_MGwb1G0K5M5e-1">
+          <mxGeometry x="168" width="790" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
